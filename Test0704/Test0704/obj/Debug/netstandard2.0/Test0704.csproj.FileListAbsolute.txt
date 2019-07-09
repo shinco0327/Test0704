@@ -1,0 +1,14 @@
+G:\Xamarin\Test0704\Test0704\Test0704\bin\Debug\netstandard2.0\Test0704.deps.json
+G:\Xamarin\Test0704\Test0704\Test0704\bin\Debug\netstandard2.0\Test0704.dll
+G:\Xamarin\Test0704\Test0704\Test0704\bin\Debug\netstandard2.0\ref\Test0704.dll
+G:\Xamarin\Test0704\Test0704\Test0704\bin\Debug\netstandard2.0\Test0704.pdb
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\Test0704.csprojAssemblyReference.cache
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\Test0704.csproj.CoreCompileInputs.cache
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\Test0704.AssemblyInfoInputs.cache
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\Test0704.AssemblyInfo.cs
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\XamlC.stamp
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\Test0704.dll
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\ref\Test0704.dll
+G:\Xamarin\Test0704\Test0704\Test0704\obj\Debug\netstandard2.0\Test0704.pdb

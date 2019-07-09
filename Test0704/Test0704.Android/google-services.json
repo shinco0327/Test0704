@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "94703406703",
+    "firebase_url": "https://helloxamarin-abaaa.firebaseio.com",
+    "project_id": "helloxamarin-abaaa",
+    "storage_bucket": "helloxamarin-abaaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94703406703:android:b5bd67c0c758a0e4",
+        "android_client_info": {
+          "package_name": "com.shinco.HelloWorld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94703406703-qp6ib468ljkqpoqkd9f8s6iromdp4poj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuKQobHFMomADNOXh1KOuCEsyDrPqjRh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94703406703-qp6ib468ljkqpoqkd9f8s6iromdp4poj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94703406703:android:b4f3a45cfb415167",
+        "android_client_info": {
+          "package_name": "com.shinco.Test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94703406703-qp6ib468ljkqpoqkd9f8s6iromdp4poj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuKQobHFMomADNOXh1KOuCEsyDrPqjRh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94703406703-qp6ib468ljkqpoqkd9f8s6iromdp4poj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94703406703:android:55c28eea12f17108",
+        "android_client_info": {
+          "package_name": "com.shinco.Test0703"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94703406703-qp6ib468ljkqpoqkd9f8s6iromdp4poj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuKQobHFMomADNOXh1KOuCEsyDrPqjRh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94703406703-qp6ib468ljkqpoqkd9f8s6iromdp4poj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

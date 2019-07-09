@@ -1,0 +1,8 @@
+G:\Xamarin\Test0704\Test0704\Test0704.iOS\obj\iPhone\Release\ibtool\_BundleResourceWithLogicalName.items
+G:\Xamarin\Test0704\Test0704\Test0704.iOS\obj\iPhone\Release\actool\_PartialAppManifest.items
+G:\Xamarin\Test0704\Test0704\Test0704.iOS\obj\iPhone\Release\actool\_BundleResourceWithLogicalName.items
+G:\Xamarin\Test0704\Test0704\Test0704.iOS\obj\iPhone\Release\coremlc\_PartialAppManifest.items
+G:\Xamarin\Test0704\Test0704\Test0704.iOS\obj\iPhone\Release\coremlc\_BundleResourceWithLogicalName.items
+G:\Xamarin\Test0704\Test0704\Test0704.iOS\obj\iPhone\Release\optimized\
+G:\Xamarin\Test0704\Test0704\Test0704.iOS\obj\iPhone\Release\Test0704.iOS.csprojAssemblyReference.cache
+G:\Xamarin\Test0704\Test0704\Test0704.iOS\obj\iPhone\Release\Test0704.iOS.csproj.CoreCompileInputs.cache
