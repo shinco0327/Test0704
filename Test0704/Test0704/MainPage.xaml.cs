@@ -20,6 +20,7 @@ namespace Test0704
             InitializeComponent();
             GetIDService_Content();
             browser.Source = Index_Link;
+            
             Content = browser;
             browser.Navigated += OnNavigatedHandler;
             if (LinkAssigned != null)
@@ -59,12 +60,10 @@ namespace Test0704
                 await Task.Delay(250);
             }
         }
-        
 
         private WebView browser = new WebView
         {
-        Source = Index_Link
-
+            Source = Index_Link
         };
 
         

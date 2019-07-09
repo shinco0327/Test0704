@@ -13,13 +13,12 @@ using Xamarin.Forms;
 
 namespace Test0704.Droid
 {
-    [Activity(Label = "Test0704", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Test0704", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             DependencyService.Register<AndroidDeviceService>();
-
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
@@ -45,7 +44,7 @@ namespace Test0704.Droid
             }
             //End of if
             Log.Debug("Programer", "LinkAssign Check "+Assign_Link);
-            Log.Debug("NotificationApp Token", FirebaseInstanceId.Instance.Token);
+           // Log.Debug("NotificationApp Token", FirebaseInstanceId.Instance.Token);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App(Assign_Link));
