@@ -44,7 +44,6 @@ namespace Test0704.Droid
             }
             //End of if
             Log.Debug("Programer", "LinkAssign Check "+Assign_Link);
-           // Log.Debug("NotificationApp Token", FirebaseInstanceId.Instance.Token);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App(Assign_Link));

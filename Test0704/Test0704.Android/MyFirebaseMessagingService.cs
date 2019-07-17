@@ -23,14 +23,7 @@ namespace Test0704.Droid
             Log.Debug(TAG, "From: " + message.From);
             Log.Debug(TAG, "Title:" + MSG_title);
             Log.Debug(TAG, "Notification Message Body: " + MSG_body);
-            /*
-             * Old Solution "Sending FCM Data to PLC"
-             * Using File IO
-            string filename;
-            filename = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "FCM_Message.txt");
-            File.Delete(filename);
-            File.WriteAllText(filename, MSG_title + "@EoT23321899" + MSG_body);
-            */
+           
             var IDService = new AndroidDeviceService();
             IDService.SetContent(MSG_title,MSG_body);
         }
@@ -42,15 +35,3 @@ namespace Test0704.Droid
 }
 
 
-
-/*
- MyFirebaseMessageingService.cs is used for receiving Firebase Cloud Messages while APP IS RUNNING FORTHGROUND.
- You can sent messages via FCM to user while they are using this application.
- If the app is not supposed to reciveing FCM message while running just DELETE MyFirebaseMessageingService.cs and
- remove programs marked "Used for FCM Forthground Receive"
-
- 當APP正在運行的時候，若要接收FCM訊息並透過DisplayAlert快顯顯示，便需要這段程式
- 如果APP不需要此功能，即刪除本MyFirebaseMessageingService.cs檔案
- 和在MainPage.xaml.cs中用註解"Used for FCM Forthground Receive"標示的程式碼即可。
- 
- */

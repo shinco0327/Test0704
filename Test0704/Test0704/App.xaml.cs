@@ -9,8 +9,8 @@ namespace Test0704
         public App(string linkAssigned)
         {
             InitializeComponent();
-            Console.WriteLine("LinkAssigned At Xamarin Forms "+linkAssigned);
-            MainPage = new MainPage(linkAssigned);
+            Console.WriteLine("LinkAssigned At Xamarin Forms " + linkAssigned);
+            MainPage = new NavigationPage(new MainPage(linkAssigned)); 
         }
 
         protected override void OnStart()

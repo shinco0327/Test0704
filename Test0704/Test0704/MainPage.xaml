@@ -12,5 +12,8 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Back" Order="Primary" Icon="" Text="Back" Priority="0" Clicked="Back_Pressed"/>
+    </ContentPage.ToolbarItems>
 
 </ContentPage>

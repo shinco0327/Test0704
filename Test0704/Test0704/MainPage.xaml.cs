@@ -20,7 +20,6 @@ namespace Test0704
             InitializeComponent();
             GetIDService_Content();
             browser.Source = Index_Link;
-            
             Content = browser;
             browser.Navigated += OnNavigatedHandler;
             if (LinkAssigned != null)
@@ -30,18 +29,7 @@ namespace Test0704
                 IsLinkAssigned = LinkAssigned;
                 LinkAssigned = null;
             }
-            /*
-            //"Used for FCM Forthground Receive" 
-            //計時器：每10秒偵測FCM Cloud的訊息 並呼叫ShowMessage()顯示之
-            //不需要此功能請刪除，副程式ShowMessage()也請刪除
-            Device.StartTimer(TimeSpan.FromSeconds(10), () =>
-            {
-                ShowMessage();
-                return true;
-            });
-            */
         }
-
         async void GetIDService_Content()
         {
             while (true)
@@ -94,6 +82,14 @@ namespace Test0704
             }
             return true;
         }
+
+        async void Back_Pressed(object sender,EventArgs args)
+        {
+            if (browser.CanGoBack)
+            {
+                browser.GoBack();
+            }
+        }
         async void ExitTheApp()
         {
             bool answer = await DisplayAlert("Leaving", "You're going to exiting the app", "Exit", "Cancel");
@@ -102,33 +98,5 @@ namespace Test0704
                 System.Environment.Exit(0);
             }
         }
-
-        /*
-         * Old Solution "Receving FCM Data From Android Solution"
-         * using File IO
-         * 
-        //"Used for FCM Forthground Receive"
-        public void ShowMessage()
-        {
-            string filename;
-            filename = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "FCM_Message.txt");
-            if (File.Exists(filename)&&File.ReadAllText(filename)!=null)
-            {
-                string[] FCM_Content = System.Text.RegularExpressions.Regex.Split(File.ReadAllText(filename), "@EoT23321899", RegexOptions.IgnoreCase);
-                if (FCM_Content.Length == 2 && (FCM_Content[0] != old_FCM_title || FCM_Content[1] != old_FCM_body))
-                {
-                    DisplayAlert(FCM_Content[0], FCM_Content[1], "OK");
-                    Console.WriteLine("FCM got messages Title:" + FCM_Content[0] + "  Body:  " + FCM_Content[1]);
-                    old_FCM_title = FCM_Content[0];
-                    old_FCM_body = FCM_Content[1];
-                }
-                File.Delete(filename);
-            }
-        }
-        private string old_FCM_title;
-        private string old_FCM_body;
-        //End of "Used for FCM Forthground Receive"
-        */
-
     }
 }
