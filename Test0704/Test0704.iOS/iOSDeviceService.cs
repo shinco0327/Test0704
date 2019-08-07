@@ -1,8 +1,11 @@
-﻿using System;
+﻿/*
+ * 運用DependencyService與Shared Code溝通
+ * https://docs.microsoft.com/zh-tw/xamarin/xamarin-forms/app-fundamentals/dependency-service/
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Foundation;
 using UIKit;
 using Xamarin.Forms;

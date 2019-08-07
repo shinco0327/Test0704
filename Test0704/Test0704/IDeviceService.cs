@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ * DependencyService
+ * https://docs.microsoft.com/zh-tw/xamarin/xamarin-forms/app-fundamentals/dependency-service/
+ */
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;

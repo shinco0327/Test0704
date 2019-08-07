@@ -1,7 +1,9 @@
-﻿using System;
+﻿/*
+ * iOS程式進入點
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
 using UIKit;
 

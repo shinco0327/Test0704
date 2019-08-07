@@ -1,5 +1,7 @@
-﻿using System;
-
+﻿/*
+ * Andoird程式進入點
+ */
+using System;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -18,6 +20,7 @@ namespace Test0704.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            //註冊DepeneyService
             DependencyService.Register<AndroidDeviceService>();
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
@@ -32,18 +35,21 @@ namespace Test0704.Droid
                     if (key != null)
                     {
                         var value = Intent.Extras.GetString(key);
-                        Log.Debug("Programer", "Key: {0} Value: {1}", key, value);
-                        if (key == "LinkAssigned")
+                        //For Debug
+                        //Log.Debug("Programer", "Key: {0} Value: {1}", key, value);
+                        if (key == "LinkAssigned") //若Key為LinkAssigned 則啟動App時顯示由Value指定的網頁
                         {
                             Assign_Link = value;
-                            Log.Debug("Programer", "GotData Key: {0} Value: {1}", key, Assign_Link);
+                            //For Debug
+                            //Log.Debug("Programer", "GotData Key: {0} Value: {1}", key, Assign_Link);
                         }
                     }
                                       
                 }
             }
             //End of if
-            Log.Debug("Programer", "LinkAssign Check "+Assign_Link);
+            //For Debug
+            //Log.Debug("Programer", "LinkAssign Check "+Assign_Link);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App(Assign_Link));

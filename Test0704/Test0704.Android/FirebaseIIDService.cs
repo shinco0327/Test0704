@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ * 取得DeviceToken
+ * https://docs.microsoft.com/zh-tw/xamarin/android/data-cloud/google-messaging/remote-notifications-with-fcm?tabs=windows
+ */
+using System;
 using Android.App;
 using Firebase.Iid;
 using Android.Util;

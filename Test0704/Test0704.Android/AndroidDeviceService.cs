@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ * 運用DependencyService與Shared Code溝通
+ * https://docs.microsoft.com/zh-tw/xamarin/xamarin-forms/app-fundamentals/dependency-service/
+ */
+using System;
 using System.IO;
 using Android.App;
 using Android.Content;

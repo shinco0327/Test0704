@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
 using UIKit;
 using Xamarin.Forms;
@@ -24,6 +23,7 @@ namespace Test0704.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            //註冊DependencyService 與 Shared Code溝通
             DependencyService.Register<IDeviceService, iOSDeviceService>();
             LoadApplication(new App(null));
 

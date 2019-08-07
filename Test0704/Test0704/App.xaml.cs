@@ -6,11 +6,12 @@ namespace Test0704
 {
     public partial class App : Application
     {
-        public App(string linkAssigned)
+        public App(string LinkAssigned) 
         {
             InitializeComponent();
-            Console.WriteLine("LinkAssigned At Xamarin Forms " + linkAssigned);
-            MainPage = new NavigationPage(new MainPage(linkAssigned)); 
+            //For Debug
+            //Console.WriteLine("LinkAssigned At Xamarin Forms " + LinkAssigned);
+            MainPage = new NavigationPage(new MainPage(LinkAssigned)); 
         }
 
         protected override void OnStart()

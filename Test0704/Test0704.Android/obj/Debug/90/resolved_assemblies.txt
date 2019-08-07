@@ -7,6 +7,7 @@ G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Numerics.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Numerics.Vectors.dll
+G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Runtime.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Xml.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Xml.Linq.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\Test0704.dll
@@ -61,13 +62,14 @@ G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\Xamari
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\Xamarin.GooglePlayServices.Basement.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\Xamarin.GooglePlayServices.Tasks.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Net.Http.dll
+G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Drawing.Common.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\Mono.Security.dll
+G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\netstandard.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Data.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Transactions.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.IO.Compression.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.IO.Compression.FileSystem.dll
-G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Web.Services.dll
