@@ -291,7 +291,6 @@ G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\com\googl
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\android\support\mediacompat\R.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\com\google\android\gms\R.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\mono\android\app\ApplicationRegistration.java
-G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\mono\android\app\XamarinAndroidEnvironmentVariables.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\android\support\design\widget\Snackbar_SnackbarActionClickImplementor.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\android\support\design\R.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md531b5060b4d7d5fd76062a7a58cb3f9db\MainActivity.java
@@ -457,7 +456,6 @@ G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md5155824
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md51558244f76c53b6aeda52c8a337f2c37\VisualElementTracker_AttachTracker.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md51558244f76c53b6aeda52c8a337f2c37\WebViewRenderer.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md51558244f76c53b6aeda52c8a337f2c37\WebViewRenderer_JavascriptResult.java
-G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md5a0d702d83d0a467573d5f64b7fb24564\FirebaseIIDService.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\CustomTabsServiceConnectionImpl.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\KeepAliveService.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\android\support\compat\R.java
@@ -484,7 +482,6 @@ G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md58432a6
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md513d0258903c37fed2a3d17a14e8551a2\AwaitableResultCallback_1.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md513d0258903c37fed2a3d17a14e8551a2\ResultCallback_1.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\bin\packaged_resources
-G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\com\shinco\test0703\R.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\bin\classes.dex
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\stamp\_BuildAdditionalResourcesCache.stamp
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\stamp\_CleanIntermediateIfNuGetsChange.stamp
@@ -499,7 +496,6 @@ G:\Xamarin\Test0704\Test0704\Test0704.Android\bin\Debug\com.shinco.Test.apk
 G:\Xamarin\Test0704\Test0704\Test0704.Android\bin\Debug\com.shinco.Test-Signed.apk
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\bin\com.shinco.Test.apk
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\com\shinco\test\R.java
-G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md561b5fbccddd02052d3fadfdad5fc9826\MyFirebaseMessagingService.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md531b5060b4d7d5fd76062a7a58cb3f9db\FirebaseIIDService.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\md531b5060b4d7d5fd76062a7a58cb3f9db\MyFirebaseMessagingService.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\res\drawable\notification_bar_icon.png
@@ -509,3 +505,4 @@ G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\linksrc\System.Drawin
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\System.Drawing.Common.dll
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\src\mono\MonoPackageManager_Resources.java
 G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\stamp\_ConvertCustomView.stamp
+G:\Xamarin\Test0704\Test0704\Test0704.Android\obj\Debug\90\android\assets\Mono.Android.pdb

@@ -14,11 +14,11 @@
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
     
-    <!--  App Toolbar   不需要狀態欄則拿掉 
+    <!--  App Toolbar   不需要狀態欄則拿掉  
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Back" Order="Primary" Icon="" Text="Back" Priority="0" Clicked="Back_Pressed"/>
         <ToolbarItem Name="More_btn" Order="Primary" Icon="" Text="●●●" Priority="1" />
     </ContentPage.ToolbarItems>
-    -->
+   -->
 
 </ContentPage>

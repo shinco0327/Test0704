@@ -30,7 +30,7 @@ namespace Test0704.iOS
             global::Xamarin.Forms.Forms.Init();
             //註冊DependencyService 與 Shared Code溝通
             DependencyService.Register<IDeviceService, iOSDeviceService>();
-            LoadApplication(new App(null));
+            LoadApplication(new App("http://gf.551.com.tw/"));
 
             if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
             {
