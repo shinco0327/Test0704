@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.shinco.Test" android:installLocation="auto" android:versionCode="3" android:versionName="AlphaVersion0708">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.shinco.Test" android:installLocation="auto" android:versionCode="4" android:versionName="AlphaVersion0821">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
@@ -21,7 +21,7 @@
         <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
       </intent-filter>
     </service>
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Test0704" android:theme="@style/MainTheme" android:name="md531b5060b4d7d5fd76062a7a58cb3f9db.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Test0704" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:name="md531b5060b4d7d5fd76062a7a58cb3f9db.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
